@@ -21,6 +21,7 @@
 #include "bridge/bridge.h"
 #include "adapter/adapter.h"
 #include "Decorator/Decorator.h"
+#include "proxy/Proxy.h"
 int main()
 {
     ///创建型模式
@@ -29,7 +30,7 @@ int main()
 
 	//测试抽象工厂模式
 	testAbstractFactory();
-
+	  
 	//测试单例模式
 	testSingleton();
 
@@ -46,6 +47,9 @@ int main()
 
 	//测试装饰器模式
 	testDecorator();
+
+	//测试代理模式
+	testProxy();
 
 
     //测试观察者模式

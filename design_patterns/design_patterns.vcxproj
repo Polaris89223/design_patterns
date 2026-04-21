@@ -171,6 +171,7 @@
     <ClCompile Include="memento\memento.cc" />
     <ClCompile Include="observe\observer.cc" />
     <ClCompile Include="prototype\protype.cc" />
+    <ClCompile Include="proxy\Proxy.cc" />
     <ClCompile Include="singleton\singleton.cc" />
     <ClCompile Include="state\canrafflestate.cc" />
     <ClCompile Include="state\dispenseoutstate.cc" />
@@ -198,6 +199,7 @@
     <ClInclude Include="memento\memento.h" />
     <ClInclude Include="observe\observer.h" />
     <ClInclude Include="prototype\protoype.h" />
+    <ClInclude Include="proxy\Proxy.h" />
     <ClInclude Include="singleton\singleton.h" />
     <ClInclude Include="state\canrafflestate.h" />
     <ClInclude Include="state\dispenseoutstate.h" />
