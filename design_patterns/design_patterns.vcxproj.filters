@@ -67,6 +67,9 @@
     <Filter Include="adapter">
       <UniqueIdentifier>{08432a58-1c21-4ccd-8334-ad45dbdd2822}</UniqueIdentifier>
     </Filter>
+    <Filter Include="decorator">
+      <UniqueIdentifier>{37c715d4-3798-49ec-9e5c-6493514f9753}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="design_patterns.cpp">
@@ -144,6 +147,9 @@
     <ClCompile Include="adapter\adapter.cc">
       <Filter>adapter</Filter>
     </ClCompile>
+    <ClCompile Include="Decorator\Decorator.cc">
+      <Filter>decorator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="observe\observer.h">
@@ -220,6 +226,9 @@
     </ClInclude>
     <ClInclude Include="adapter\adapter.h">
       <Filter>adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator\Decorator.h">
+      <Filter>decorator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

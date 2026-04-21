@@ -20,6 +20,7 @@
 #include "interpreter/interpreter.h"
 #include "bridge/bridge.h"
 #include "adapter/adapter.h"
+#include "Decorator/Decorator.h"
 int main()
 {
     ///创建型模式
@@ -39,6 +40,12 @@ int main()
 	testProtoType();
 
 	//结构型模式
+
+	//测试适配器模式
+	testAapter();
+
+	//测试装饰器模式
+	testDecorator();
 
 
     //测试观察者模式
@@ -77,8 +84,7 @@ int main()
 	//测试桥接模式
 	testBridge();
 
-	//测试适配器模式
-	testAapter();
+	
 
 	getchar();
 }
