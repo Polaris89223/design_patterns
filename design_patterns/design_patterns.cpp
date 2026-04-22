@@ -22,9 +22,10 @@
 #include "adapter/adapter.h"
 #include "Decorator/Decorator.h"
 #include "proxy/Proxy.h"
+#include "facade/facade.h"
 int main()
 {
-    ///创建型模式
+    ///=====================创建型模式====================================
 	//测试工厂模式
 	testFactory();
 
@@ -40,7 +41,7 @@ int main()
 	//测试原型模式
 	testProtoType();
 
-	//结构型模式
+	//====================================结构型模式==================================
 
 	//测试适配器模式
 	testAapter();
@@ -51,6 +52,8 @@ int main()
 	//测试代理模式
 	testProxy();
 
+	//测试外观模式
+	testFacade();
 
     //测试观察者模式
 	testObserver();

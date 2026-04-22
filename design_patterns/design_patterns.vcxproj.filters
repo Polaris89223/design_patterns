@@ -73,6 +73,9 @@
     <Filter Include="proxy">
       <UniqueIdentifier>{423ce0a3-e29c-410d-8cf6-a2232307b51f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="facade">
+      <UniqueIdentifier>{9a707855-8d3c-47c6-aa9f-ca5a6c8a393a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="design_patterns.cpp">
@@ -156,6 +159,9 @@
     <ClCompile Include="proxy\Proxy.cc">
       <Filter>proxy</Filter>
     </ClCompile>
+    <ClCompile Include="facade\facade.cc">
+      <Filter>facade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="observe\observer.h">
@@ -238,6 +244,9 @@
     </ClInclude>
     <ClInclude Include="proxy\Proxy.h">
       <Filter>proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="facade\facade.h">
+      <Filter>facade</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

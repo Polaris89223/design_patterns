@@ -163,6 +163,7 @@
     <ClCompile Include="command\command.cc" />
     <ClCompile Include="Decorator\Decorator.cc" />
     <ClCompile Include="design_patterns.cpp" />
+    <ClCompile Include="facade\facade.cc" />
     <ClCompile Include="factory\factory.cc" />
     <ClCompile Include="factory\product.cc" />
     <ClCompile Include="interpreter\interpreter.cc" />
@@ -191,6 +192,7 @@
     <ClInclude Include="chain\chain.h" />
     <ClInclude Include="command\command.h" />
     <ClInclude Include="Decorator\Decorator.h" />
+    <ClInclude Include="facade\facade.h" />
     <ClInclude Include="factory\factory.h" />
     <ClInclude Include="factory\product.h" />
     <ClInclude Include="interpreter\interpreter.h" />
