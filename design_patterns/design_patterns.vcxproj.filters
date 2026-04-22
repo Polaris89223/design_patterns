@@ -76,6 +76,9 @@
     <Filter Include="facade">
       <UniqueIdentifier>{9a707855-8d3c-47c6-aa9f-ca5a6c8a393a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="composite">
+      <UniqueIdentifier>{bce023de-561c-427b-b8ff-008643de5851}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="design_patterns.cpp">
@@ -162,6 +165,9 @@
     <ClCompile Include="facade\facade.cc">
       <Filter>facade</Filter>
     </ClCompile>
+    <ClCompile Include="composite\composite.cc">
+      <Filter>composite</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="observe\observer.h">
@@ -247,6 +253,9 @@
     </ClInclude>
     <ClInclude Include="facade\facade.h">
       <Filter>facade</Filter>
+    </ClInclude>
+    <ClInclude Include="composite\composite.h">
+      <Filter>composite</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

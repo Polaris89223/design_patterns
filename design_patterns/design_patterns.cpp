@@ -23,6 +23,7 @@
 #include "Decorator/Decorator.h"
 #include "proxy/Proxy.h"
 #include "facade/facade.h"
+#include "composite/composite.h"
 int main()
 {
     ///=====================创建型模式====================================
@@ -54,6 +55,13 @@ int main()
 
 	//测试外观模式
 	testFacade();
+
+	//测试组合模式
+	testComposite();
+
+
+
+	//====================================行为型模式==================================
 
     //测试观察者模式
 	testObserver();
