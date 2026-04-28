@@ -24,6 +24,7 @@
 #include "proxy/Proxy.h"
 #include "facade/facade.h"
 #include "composite/composite.h"
+#include "flyweight/flyweight.h"
 int main()
 {
     ///=====================创建型模式====================================
@@ -59,7 +60,11 @@ int main()
 	//测试组合模式
 	testComposite();
 
+	//测试桥接模式
+	testBridge();
 
+	//测试享元模式
+	testFlyWeight();
 
 	//====================================行为型模式==================================
 
@@ -96,10 +101,6 @@ int main()
 	//测试解释器模式
 	testInterPreter();
 
-	//测试桥接模式
-	testBridge();
-
-	
 
 	getchar();
 }

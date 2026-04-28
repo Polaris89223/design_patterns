@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 /*
 桥接模式（Bridge Pattern）是一种结构型设计模式，
 它将抽象部分与实现部分分离，使它们可以独立地变化。
@@ -10,12 +10,12 @@
 #include <iostream>
 #include <memory>
 using namespace std;
-//抽象类：手机
+//实现层：手机
 class Phone {
 public:
 	virtual void runApp() = 0;
 };
-//抽象类：应用程序
+//抽象层：应用程序
 class App {
 public:
 	virtual void runOnPhone(Phone*phone) = 0;
